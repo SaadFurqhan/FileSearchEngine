@@ -5,6 +5,9 @@ the directories available in local system, and finally allows user to search the
 <p>It is connected to database, thus allows to search the file first in database, if not found 
 goes to local directory, all operations are performed in multi-threading.
 
+### Problem Statement:
+<img src="https://github.com/Kingpins/FileSearchEngine/blob/main/pics/Slide1.JPG" width="800px"/> 
+
 ### Tech Stack used:
 - Python 3 
 - Flask
