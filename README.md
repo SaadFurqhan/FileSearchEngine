@@ -6,8 +6,8 @@ the directories available in local system, and finally allows user to search the
 goes to local directory, all operations are performed in multi-threading.
 
 ### Problem Statement:
-<img src="https://github.com/Kingpins/FileSearchEngine/blob/main/pics/q1.jpeg" width="800px"/> 
-<img src="https://github.com/Kingpins/FileSearchEngine/blob/main/pics/q2.jpeg" width="800px"/> 
+<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q1.jpeg" width="800px"/> 
+<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q1.jpeg" width="800px"/> 
 
 ### Tech Stack used:
 - Python 3 
@@ -16,5 +16,5 @@ goes to local directory, all operations are performed in multi-threading.
 - Sqlite
 
 ### Project Screenshots:
-<img src="https://github.com/Kingpins/FileSearchEngine/blob/main/pics/Slide1.JPG" width="800px"/> <img src="https://github.com/Kingpins/FileSearchEngine/blob/main/pics/Slide2.JPG" width="800px"/> <img src="https://github.com/Kingpins/FileSearchEngine/blob/main/pics/Slide3.JPG" width="800px"/>
+<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide1.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics//Slide2.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide3.JPG" width="800px"/>
 
