@@ -25,7 +25,7 @@ finally  run **View_file.py**
 
 ### Project Screenshots:
 <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide1.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics//Slide2.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide3.JPG" width="800px"/>
-
-![](http://damien.pobel.fr/images/youtube-video-github.gif)
-
-See also [Embed a Youtube video in Github markdown](http://damien.pobel.fr/post/youtube-video-github/)
+<video width="320" height="240" controls>
+      <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+      
+    </video>
