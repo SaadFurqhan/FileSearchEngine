@@ -10,12 +10,12 @@ goes to local directory, all operations are performed in multi-threading.
 <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q2.jpeg" width="400px" height="60%"/> 
 
 ### Requirements :
-1.'pip install Flask'
-2.'pip install Flask-SQLAlchemy'
+1.`pip install Flask`
+2.`pip install Flask-SQLAlchemy`
 
-After installing type python in terminal and open Python environment then write 'from view_file import db' atlast write 'db.create_all()'
+After installing type python in terminal and open Python environment then write `from view_file import db` atlast write `db.create_all()`
 
-finally  run ** View_file.py**
+finally  run **View_file.py**
 
 ### Tech Stack used:
 - Python 3 
