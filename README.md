@@ -25,7 +25,4 @@ finally  run **View_file.py**
 
 ### Project Screenshots:
 <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide1.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics//Slide2.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide3.JPG" width="800px"/>
-<video width="320" height="240" controls>
-      <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
-      
-    </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A7ofYpImDXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
