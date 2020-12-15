@@ -1,0 +1,120 @@
+<html>
+<head>
+  <title>File Search Engine</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style type="text/css">
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .searchForm {
+      display: inline-block;
+
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #555;
+    }
+
+    input[type=text] {
+      width: 50%;
+      padding: 10px 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      /* Green */
+      border: none;
+      color: white;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 2px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: white;
+      color: black;
+      border: 2px solid #555555;
+    }
+
+    .button1:hover {
+      background-color: #555555;
+      color: white;
+    }
+
+    .title {
+      margin-top: 20px;
+      margin-bottom: 20px
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <a href='/' class="searchForm">
+        <h1><i class="material-icons" style="font-size:35px;">search</i> File Search Engine </h1>
+      </a>
+    </div>
+    <div class="searchForm">
+      <form action="/search" method="POST">
+        <input id="name" type="text" name="search_term" placeholder="search by name" value={{result["search_term"]}}>
+        <input type="submit" id="myBtn" class="button button1" value="Search">
+        <input type="checkbox" name="searchDB" checked=True /> Search from Database
+        <h5>Showing results from : {{result['directory']}} directory.</h5>
+      </form>
+    </div>
+    <hr>
+    {% if result['status'] == False%}
+    <div class="sticky-top alert alert-danger alert-dismissible sticky" style="top:10px;" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      </button>
+      {{result['message']}}
+    </div>
+    {% endif %}
+    {% if result['results'] == 0%}
+    <div class="sticky-top alert alert-danger alert-dismissible sticky" style="top:10px;" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      </button>
+      Loading the directory...try again in a minute or two...
+    </div>
+    {% elif result['results'] == 1%}
+
+    {%else %}
+    <div class="sticky-top alert alert-success alert-dismissible sticky" style="top:10px;" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+
+      </button>
+      {{result['success_message']}}
+    </div>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>File Path</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for value in result['results']%}
+          <tr>
+            <td>{{value}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+  </div>
+</body>
+
+</html>
