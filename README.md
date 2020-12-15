@@ -6,8 +6,8 @@ the directories available in local system, and finally allows user to search the
 goes to local directory, all operations are performed in multi-threading.
 
 ### Problem Statement:
-<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q1.jpeg" width="800px"/> 
-<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q1.jpeg" width="800px"/> 
+<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q1.jpeg" width="400px height="60%"/> 
+<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/q1.jpeg" width="400px" height="60%"/> 
 
 ### Tech Stack used:
 - Python 3 
