@@ -1,1 +1,1 @@
-web:  gunicorn view_file:app --log-file -
+web: gunicorn -t 150 -c view_file:app --bind 0.0.0.0:${PORT}
