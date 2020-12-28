@@ -5,7 +5,7 @@ import pickle
 from model import SearchEngine 
 import threading 
 import string
-from ctypes import windll
+# from ctypes import windll
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
