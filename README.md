@@ -24,7 +24,7 @@ finally  run **View_file.py**
 - Sqlite
 
 ### Project Screenshots:
-<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide1.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics//Slide2.JPG" width="800px"/> <img 
+<img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics/Slide1.JPG" width="800px"/> <img src="https://github.com/SaadFurqhan/FileSearchEngine/blob/master/pics//Slide2.JPG" width="800px"/> 
 
 ### Demo:
  [![File Search Engine](https://img.youtube.com/vi/A7ofYpImDXg/0.jpg)](https://www.youtube.com/watch?v=A7ofYpImDXg)
